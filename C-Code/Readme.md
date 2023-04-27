@@ -5,3 +5,11 @@
 该代码有一定问题. 在删除部分, 有时会有一些错误. 请注意.
 
 代码仅供参考学习. 
+
+This file implements the basic functions of the red-black tree.
+
+In addition, the simulation visualization printing red-black tree is realized. But the simulation method can be optimized. It uses a very cumbersome and low-efficiency method.
+
+There is something wrong with this code. In the deletion part, sometimes there are some mistakes. Please pay attention.
+
+The code is for reference only.
