@@ -1,3 +1,5 @@
+#该文件为运行一次main.c打印的. 注意: 这里没有显示红黑色, 实际在打印时会显示.
+
 This is the initial RB Tree:
                               25                                                                                                                                                                         
 
