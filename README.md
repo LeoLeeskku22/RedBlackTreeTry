@@ -11,7 +11,7 @@ Many codes are not good, and there is a lot of room for optimization.
 
 이것은 알고리즘을 배우면서 red-black tree를 만들려고 시도한 것입니다.
 
-코드는 참조용입니다.
+code는 참조용입니다.
 
 많은 코드가 좋지 않고 최적화의 여지가 많습니다.
 
