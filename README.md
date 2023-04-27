@@ -13,6 +13,6 @@ Many codes are not good, and there is a lot of room for optimization.
 
 code는 참조용입니다.
 
-많은 코드가 좋지 않고 최적화의 여지가 많습니다.
+많은 코드가 좋지 않습니다. 최적화가 필요합니다.
 
 
