@@ -1,0 +1,8 @@
+Successor(x):
+If right[x] != NIL then return Minimum(right[x])
+Otherwise: 
+  y = p[x]
+  while(y!=NIL and x=right[y]) do 
+    x = y
+    y = p[y]
+  return y
