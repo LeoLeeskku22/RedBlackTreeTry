@@ -1,0 +1,18 @@
+RB-DELETE-FIXUP(T, x)
+while x != root[T] and color[x] = BLACK
+  do if x = left[p[x]]
+    then w = right[p[x]]
+      if color[w] = RED
+        then color[w] = BLACK, color[p[x]] = RED, leftRotate(T,p[x]), w = right[p[x]]
+      if color[left[w]] = BLACK and color[right[w]] = BLACK
+        then color[w] = RED
+          x = p[x]
+        else if color[right[w]] = BLACK
+          then color[left[w]] = BLACK, color[w] = RED, rightRotate(T,w), w = right[p[x]]
+          color[w] = color[p[x]]
+          color[p[x]] = BLACK
+          color[right[w]] = BLACK
+          leftRotate(T,p[x])
+          x = root[T]
+  else (same as then clause with right and left exchanged)
+  color[x] = BLACK
